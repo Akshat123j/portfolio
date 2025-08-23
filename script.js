@@ -26,6 +26,7 @@ async function open() {
         content.style.display="none";
         cupboard.style.display="none";
         file.style.display="none";
+        document.body.innerHTML="";
     } catch (error) {
         console.error("Error during animation or navigation:", error);
         // Optional: show a fallback message or visual cue
