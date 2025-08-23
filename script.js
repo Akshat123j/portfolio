@@ -23,6 +23,7 @@ async function open() {
 
         await delay(2000);
         window.location.href = "content.htm";
+        content.style.display="none";
     } catch (error) {
         console.error("Error during animation or navigation:", error);
         // Optional: show a fallback message or visual cue
