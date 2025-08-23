@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GLB Model Viewer</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    @keyframes cupboard {
+  from{
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
+    display: none;
+  }
+}
+#cupboard{
+  animation: cupboard 5s ease-out forwards;
+}
+  </style>
+</head>
+<body>
+     <model-viewer id="cupboard"
+    src="model.glb" 
+    alt="A 3D model" 
+    auto-rotate 
+    camera-controls 
+    background-color="##8A6E69" 
+    style="width: 600px; height: 400px;">
+</body>
+</html>
