@@ -22,7 +22,7 @@ async function open() {
         content.style.transform = "rotateZ(0deg)";
 
         await delay(2000);
-        window.location.href = "content.htm";
+        window.location.href = "1.htm";
         content.style.display="none";
         cupboard.style.display="none";
         file.style.display="none";
