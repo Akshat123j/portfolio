@@ -26,7 +26,7 @@ async function open() {
         content.style.display="none";
         cupboard.style.display="none";
         file.style.display="none";
-        document.body.innerHTML=`<a href="https://akshat123j.github.io/portfolio/content.htm"> click</a>`;
+        document.body.innerHTML=`<a href="https://akshat123j.github.io/portfolio/1.htm"> click</a>`;
     } catch (error) {
         console.error("Error during animation or navigation:", error);
         // Optional: show a fallback message or visual cue
